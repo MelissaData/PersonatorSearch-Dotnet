@@ -42,8 +42,8 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Download this project
 ```
-$ git clone https://github.com/MelissaData/PersonatorSearch-Dotnet
-$ cd PersonatorSearch-Dotnet
+git clone https://github.com/MelissaData/PersonatorSearch-Dotnet
+cd PersonatorSearch-Dotnet
 ```
 
 ## Windows
@@ -89,15 +89,15 @@ There are two modes:
 
 	The script will prompt the user for input(s), then use the provided input(s) to call the Cloud API. For example:
 	```
-	$ .\PersonatorSearchDotnet.ps1
+	.\PersonatorSearchDotnet.ps1
 	```
 
 - Command Line 
 
 	You can pass a full name, address line 1, city, state, postal code, and license string into `-fullname`, `-addressline1`, `-city`, `-state`, `-postal`, and `-license` parameters respectively to test the Cloud API. For example: 
 	```
-    $ .\PersonatorSearchDotnet.ps1 -fullname "Melissa Data" -addressline1 "22382 Avenida Empresa" -city "Rancho Santa Margarita" -state "CA" -postal "92688"
-    $ .\PersonatorSearchDotnet.ps1 -fullname "Melissa Data" -addressline1 "22382 Avenida Empresa" -city "Rancho Santa Margarita" -state "CA" -postal "92688" -license "<your_license_string>"
+    .\PersonatorSearchDotnet.ps1 -fullname "Melissa Data" -addressline1 "22382 Avenida Empresa" -city "Rancho Santa Margarita" -state "CA" -postal "92688"
+    .\PersonatorSearchDotnet.ps1 -fullname "Melissa Data" -addressline1 "22382 Avenida Empresa" -city "Rancho Santa Margarita" -state "CA" -postal "92688" -license "<your_license_string>"
     ```
 	
 This is the expected output from a successful setup for interactive mode:
@@ -152,15 +152,15 @@ There are two modes:
 
 	The script will prompt the user for input(s), then use the provided input(s) to call the Cloud API. For example:
 	```
-	$ ./PersonatorSearchDotnet.sh
+	./PersonatorSearchDotnet.sh
 	```
 
 - Command Line 
 
 	You can pass a full name, address line 1, city, state, postal code, and license string into `--fullname`, `--addressline1`, `--city`, `--state`, `--postal`, and `--license` parameters respectively to test the Cloud API. For example: 
 	```
-    $ ./PersonatorSearchDotnet.sh --fullname "Melissa Data" --addressline1 "22382 Avenida Empresa" --city "Rancho Santa Margarita" --state "CA" --postal "92688"
-    $ ./PersonatorSearchDotnet.sh --fullname "Melissa Data" --addressline1 "22382 Avenida Empresa" --city "Rancho Santa Margarita" --state "CA" --postal "92688" --license "<your_license_string>"
+    ./PersonatorSearchDotnet.sh --fullname "Melissa Data" --addressline1 "22382 Avenida Empresa" --city "Rancho Santa Margarita" --state "CA" --postal "92688"
+    ./PersonatorSearchDotnet.sh --fullname "Melissa Data" --addressline1 "22382 Avenida Empresa" --city "Rancho Santa Margarita" --state "CA" --postal "92688" --license "<your_license_string>"
     ```
 
 This is the expected output from a successful setup for interactive mode:
